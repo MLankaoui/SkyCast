@@ -3,3 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+li {
+    list-style: none;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 34px;
+    padding: 20px;
+}
