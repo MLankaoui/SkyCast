@@ -8,18 +8,22 @@ li {
 }
 .menu-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     align-items: center;
     flex-wrap: wrap;
     font-size: 25px;
     padding: 20px;
-    background-color: #2c3e50;
-    color: #ffffff;
+    background-color: #ffff;
+    color: #2c3e50;
     font-family: Roboto;
     cursor: pointer;
 }
+.logo {
+    margin-right: auto;
+}
 .item {
     transition: opacity 2s;
+    margin-right: 40px;
 }
 .item:hover {
     opacity: 50%;
@@ -27,5 +31,5 @@ li {
 
 a {
     text-decoration: none;
-    color: #ffff;
+    color: #2c3e50;
 }
