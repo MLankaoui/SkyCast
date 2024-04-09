@@ -24,3 +24,8 @@ li {
 .item:hover {
     opacity: 50%;
 }
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
