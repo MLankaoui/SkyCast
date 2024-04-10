@@ -50,11 +50,23 @@ a {
 .paragraph-text {
     width: 40%;
     font-size:26px;
-    margin-top: -120px;
+    margin-top: -110px;
     margin-left: 850px;
+    line-height: 40px;
+
+}
+header {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_640.jpg");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: gray;
+    padding-bottom: 100px;
+
+    background-blend-mode: color;
 }
 .header-text {
     margin-top: 260px;
-    color: #2c3e50;
+    color: #ffff;
     padding-bottom: 200px;
 }
