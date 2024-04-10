@@ -22,11 +22,12 @@ li {
     margin-right: auto;
 }
 .item {
-    transition: opacity 2s;
+    transition: opacity, text-shadow 0.5s;
     margin-right: 40px;
 }
 .item:hover {
     opacity: 50%;
+    text-shadow: 0px 4px rgba(44, 62, 80, 0.2);
 }
 
 a {
