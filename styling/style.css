@@ -345,3 +345,88 @@ header {
     color: black;
 }
 
+.contact-section {
+    height: 100vh;
+    margin-top: 40px;
+}
+
+.contact-title {
+    color: rgb(252, 94, 3);
+    font-family: roboto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-left: 270px;
+}
+
+.form-text {
+    color: rgb(252, 94, 3);
+    font-family: roboto;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#name {
+    border: 1px solid rgb(252, 94, 3);
+    width: 400px;
+    height: 40px;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+#email {
+    border: 1px solid rgb(252, 94, 3);
+    width: 400px;
+    height: 40px;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#message {
+    border: 1px solid rgb(252, 94, 3);
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+.submit-button {
+    background: rgb(168,0,0);
+    background: linear-gradient(94deg, rgba(168,0,0,1) 26%, rgba(255,0,0,1) 47%, rgba(255,0,0,1) 67%, rgba(255,119,0,0.8407738095238095) 100%, rgba(218,51,9,1) 100%, rgba(0,30,193,1) 100%);
+    border: none;
+    color: black;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+
+.submit-button:hover {
+    background-color: rgb(252, 94, 3);
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-image {
+    margin-top: auto;
+    margin-bottom: auto;
+    border:3px solid rgb(252, 94, 3);
+}
