@@ -133,6 +133,7 @@ header {
     display: flex;
     justify-content: center;
     
+    
 }
 #infos-hover{
     color: rgb(252, 94, 3);
@@ -165,6 +166,7 @@ header {
     cursor: pointer;
     transition: color 1s;
     margin-top: 40px;
+    
 }
 
 .services-p {
@@ -193,8 +195,8 @@ header {
 .coordinates {
     padding: 30px;
     border: rgb(252, 94, 3) solid;
-    background-color: #000000;
-    border: 1px solid #000000;
+    border: 0.3px solid rgb(252, 94, 3);
+    border-radius: 10%;
     border-radius:10%;
     width: 390px;
     height: 300px;
@@ -207,8 +209,8 @@ header {
 
 .weather {
     padding: 30px;
-    background-color: #000000;
-    border: 1px solid #000000;
+    border: rgb(252, 94, 3) solid;
+    border: 0.3px solid rgb(252, 94, 3);
     border-radius:10%;
     width: 390px;
     height: 300px;
@@ -221,8 +223,8 @@ header {
 
 .city-infos {
     padding: 30px;
-    background-color: #000000;
-    border: 1px solid #000000;
+    border: rgb(252, 94, 3) solid;
+    border: 0.3px solid rgb(252, 94, 3);
     border-radius:10%;
     width: 390px;
     height: 300px;
@@ -231,19 +233,19 @@ header {
     transition: border 1s, box-shadow 1s, color 1s;
 }
 .city-infos:hover {
-    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    box-shadow: 0 0 75px rgba(252, 94, 3, 0.39);
     color: rgba(252, 94, 3, 0.39);
     border-radius: 10%;
 }
 
 .weather:hover {
-    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    box-shadow: 0 0 75px rgba(252, 94, 3, 0.39);
     color: rgba(252, 94, 3, 0.39);
     border-radius: 10%;
 }
 
 .coordinates:hover {
-    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    box-shadow: 0 0 75px rgba(252, 94, 3, 0.39);
     color: rgba(252, 94, 3, 0.39);
     border-radius: 10%;
 }
@@ -284,7 +286,6 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    margin-left: 200px;
 }
 .about-h1 {
     color: rgb(252, 94, 3);
@@ -299,6 +300,8 @@ header {
     border: 1px dotted rgb(246, 246, 248);
     padding: 40px;
     border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
 }
 
 #check {
@@ -307,6 +310,8 @@ header {
     border: 1px dotted rgb(246, 246, 248);
     padding: 40px;
     border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
 }
 
 #rocket {
@@ -315,39 +320,28 @@ header {
     border: 1px dotted rgb(246, 246, 248);
     padding: 40px;
     border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
 }
 
 .reliable {
-    margin-right: 100px;
-    margin-left: 100px;
-}
-.real-time-text {
-    color: white;
-    margin-top: 50px;
-    font-family: roboto;
-    opacity: 60%;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
-.reliable-text {
-    color: white;
-    margin-top: 50px;
-    font-family: roboto;
-    opacity: 60%;
-    text-align: center;
+
+#clock:hover {
+    background-color: rgb(252, 94, 3);
+    color: black;
 }
 
-.reliable-text {
-    color: white;
-    margin-top: 50px;
-    font-family: roboto;
-    opacity: 60%;
+#check:hover {
+    background-color: rgb(252, 94, 3);
+    color: black;
 }
 
-.fast-text {
-    color: white;
-    margin-top: 50px;
-    font-family: roboto;
-    opacity: 60%;
+#rocket:hover {
+    background-color: rgb(252, 94, 3);
+    color: black;
 }
-
 
