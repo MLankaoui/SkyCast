@@ -3,6 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.orange-color {
+    color:rgb(252, 94, 3);
+}
+
+body {
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
 li {
     list-style: none;
 }
@@ -12,8 +21,7 @@ li {
     align-items: center;
     flex-wrap: wrap;
     font-size: 25px;
-    padding: 20px;
-	background-color: white;    
+    padding: 20px;    
     color: #2c3e50;
     font-family: Roboto;
     cursor: pointer;
@@ -32,7 +40,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #2c3e50;
+    color: rgb(252, 94, 3);
 }
 
 .logo-header {
@@ -40,6 +48,7 @@ a {
     margin-top: 200px;
     font-size: 70px;
     font-family: Montserrat;
+    color: rgb(252, 94, 3);
 }
 
 .slogan {
@@ -57,14 +66,8 @@ a {
 
 }
 header {
-    background-image: url("https://cdn.pixabay.com/photo/2017/05/20/20/22/clouds-2329680_640.jpg");
-    background-position: fixed;
-    background-repeat: no-repeat;
     background-size: cover; /* corrected property value */
-    background-color: gray;
     padding-bottom: 100px;
-    background-blend-mode: multiply; /* corrected blend mode */
-
 }
 .header-text {
     margin-top: 260px;
@@ -81,7 +84,7 @@ header {
 
 .header-get-started {
     padding: 27px;
-    background-color: #2c3e50;
+    background-color: rgb(252, 94, 3);
     border: none;
     margin-right: 8px;
     color: white;
@@ -108,7 +111,6 @@ header {
     font-size: 15px;
 }
 .services-section {
-    background-color: black;
     height: 100vh;
 }
 .services-title {
@@ -117,46 +119,46 @@ header {
     font-size: 39px;
     font-weight: bold;
     font-family: Roboto;
-    color: white;
+    color: rgb(252, 94, 3);
 }
 .line {
     height: 2px;
     width: 80px;
-    background-color: white;
+    background-color: rgb(252, 94, 3);
     margin-left: 877px;
 }
 .elements {
     font-size: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 #infos-hover{
-    color: #2c3e50;
+    color: rgb(252, 94, 3);
     font-family: Montserrat;
     font-weight: bolder;
-    color: white;
+    color: rgb(252, 94, 3);
     text-align: center;
     cursor: pointer;
     transition: color 1s;
     margin-top: 40px;
 }
 #weather-hover{
-    color: #2c3e50;
+    color: rgb(252, 94, 3);
     font-family: Montserrat;
     font-weight: bolder;
-    color: white;
+    color: rgb(252, 94, 3);
     text-align: center;
     cursor: pointer;
     transition: color 1s;
-    margin-top: 40px;    
+    margin-top: 40px;  
 }
 
 #coordinates-hover {
-    color: #2c3e50;
+    color: rgb(252, 94, 3);
     font-family: Montserrat;
     font-weight: bolder;
-    color: white;
+    color: rgb(252, 94, 3);
     text-align: center;
     cursor: pointer;
     transition: color 1s;
@@ -188,8 +190,8 @@ header {
 
 .coordinates {
     padding: 30px;
-    background-color: #2c3e50;
-    border: 1px solid #2c3e50;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius:10%;
     width: 390px;
     height: 300px;
@@ -201,20 +203,22 @@ header {
 
 .weather {
     padding: 30px;
-    background-color: #2c3e50;
-    border: 1px solid #2c3e50;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius:10%;
     width: 390px;
     height: 300px;
     color: white;
     cursor: pointer;
     transition: border 1s, box-shadow 1s, color 1s;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .city-infos {
     padding: 30px;
-    background-color: #2c3e50;
-    border: 1px solid #2c3e50;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius:10%;
     width: 390px;
     height: 300px;
@@ -223,33 +227,21 @@ header {
     transition: border 1s, box-shadow 1s, color 1s;
 }
 .city-infos:hover {
-    border:  5px rgba(0, 0, 0, 0.39) solid;
-    box-shadow: 0 0 150px rgba(148, 144, 144, 0.39);
-    color:rgba(0, 0, 0, 0.39);
+    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    color: rgba(252, 94, 3, 0.39);
     border-radius: 10%;
 }
 
 .weather:hover {
-    border:  5px rgba(0, 0, 0, 0.39) solid;
-    box-shadow: 0 0 100px rgba(148, 144, 144, 0.39);
-    color: rgba(0, 0, 0, 0.39);
+    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    color: rgba(252, 94, 3, 0.39);
+    border-radius: 10%;
 }
 
 .coordinates:hover {
-    border:  5px rgba(0, 0, 0, 0.39) solid;
-    box-shadow: 0 0 150px rgba(148, 144, 144, 0.39);
-    color: rgba(0, 0, 0, 0.39);
-}
-#infos-hover:hover {
-    color:  rgba(0, 0, 0, 0.39);
-}
-
-#weather-hover:hover {
-    color:  rgba(0, 0, 0, 0.39);
-}
-
-#coordinates-hover:hover {
-    color: rgba(0, 0, 0, 0.39);
+    box-shadow: 0 0 60px rgba(252, 94, 3, 0.39);
+    color: rgba(252, 94, 3, 0.39);
+    border-radius: 10%;
 }
 
 
