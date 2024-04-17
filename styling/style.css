@@ -31,12 +31,14 @@ li {
     margin-right: auto;
 }
 .item {
-    transition: opacity, text-shadow 0.5s;
+    transition: opacity 0.5s, text-shadow 0.5s, border-bottom 0.5s;
     margin-right: 40px;
+
 }
 .item:hover {
     opacity: 50%;
     text-shadow: 0px 4px rgba(44, 62, 80, 0.2);
+    border-bottom: 4px solid rgb(252, 94, 3);
 }
 
 a {
@@ -297,7 +299,7 @@ header {
 #clock {
     color: rgb(252, 94, 3);
     margin-top: 100px;
-    border: 1px dotted rgb(246, 246, 248);
+    border: 4px dashed rgb(255, 255, 255);
     padding: 40px;
     border-radius: 50px;
     cursor: pointer;
@@ -307,7 +309,7 @@ header {
 #check {
     color: rgb(252, 94, 3);
     margin-top: 100px;
-    border: 1px dotted rgb(246, 246, 248);
+    border: 4px dashed rgb(255, 255, 255);
     padding: 40px;
     border-radius: 50px;
     cursor: pointer;
@@ -317,7 +319,7 @@ header {
 #rocket {
     color: rgb(252, 94, 3);
     margin-top: 100px;
-    border: 1px dotted rgb(246, 246, 248);
+    border: 4px dashed rgb(255, 255, 255);
     padding: 40px;
     border-radius: 50px;
     cursor: pointer;
@@ -366,14 +368,14 @@ header {
 }
 
 .form-text {
-    color: rgb(252, 94, 3);
+    color: white;
     font-family: roboto;
     text-align: center;
     font-size: 20px;
     margin-right: 20px;
 }
 #name {
-    border: 1px solid rgb(252, 94, 3);
+    border: 3px solid rgb(252, 94, 3);
     width: 400px;
     height: 40px;
     border-radius: 5%;
@@ -382,16 +384,16 @@ header {
 }
 
 #email {
-    border: 1px solid rgb(252, 94, 3);
+    border: 3px solid rgb(252, 94, 3);
     width: 400px;
     height: 40px;
-    border-radius: 5%;
+    border-radius: 5px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 31px;
 }
 
 #message {
-    border: 1px solid rgb(252, 94, 3);
+    border: 3px solid rgb(252, 94, 3);
     width: 400px;
     height: 500px;
     border-radius: 5%;
@@ -399,8 +401,7 @@ header {
 }
 
 .submit-button {
-    background: rgb(168,0,0);
-    background: linear-gradient(94deg, rgba(168,0,0,1) 26%, rgba(255,0,0,1) 47%, rgba(255,0,0,1) 67%, rgba(255,119,0,0.8407738095238095) 100%, rgba(218,51,9,1) 100%, rgba(0,30,193,1) 100%);
+    background-color: rgb(252, 94, 3);
     border: none;
     color: black;
     font-size: 24px;
