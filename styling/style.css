@@ -513,3 +513,17 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.services-buttons {
+    background-color: rgb(252, 94, 3);
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-family: Roboto;
+    font-weight: 800;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
